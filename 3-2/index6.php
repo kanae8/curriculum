@@ -1,9 +1,9 @@
 <?php
 #step1:フルーツと単価の連想配列を作成してください。
-$fruits=["リンゴ" =>300,"みかん" =>150,"桃" =>900];
+$fruits=["リンゴ" =>100,"みかん" =>50,"桃" =>500];
 
 #配列の0:リンゴ、1:みかん、2:桃の順に個数を配列で作成してください。
-$number=[1,3,2];
+$number=[3,3,6];
 #step2:単価を計算する関数を定義してください。
 function fruits($price,$amount){
   echo "は".$price*$amount."円です。";
@@ -15,7 +15,7 @@ $count=0;
 foreach($fruits as $key=>$value){
   echo $key;
   fruits($value,$number[$count]);
-  echo "\n";
+  echo "<br>\n";
   $count++;
 }
 
