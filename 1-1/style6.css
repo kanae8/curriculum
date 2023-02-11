@@ -1,0 +1,64 @@
+body{
+  width:100%;
+}
+.clearfix::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+.margin{
+  width:400px;
+  height: 450px;
+  margin:100px 200px 100px 200px;
+}
+.header{
+  width:400px;
+  height: 100px;
+  background-color: #141f40;
+}
+.sidebar{
+  width:150px;
+  height: 250px;
+  float: left;
+  background-color: #80bfa8;
+}
+.tyousei{
+  width: 250px;
+  height: 150px;
+  float: left;
+}
+.main1{
+  width:250px;
+  height: 100px;
+  float: left;
+  background-color: #8c2727;
+}
+.main2{
+  position: relative;
+  bottom: 0;
+  width:100px;
+  height: 150px;
+  float: right;
+  background-color: #ff9e6b;
+}
+.main3{
+  position: relative;
+  bottom: 0;
+  width:  150px;
+  height: 100px;
+  float: right;
+  background-color: #0093b7;
+}
+.main4{
+  position: relative;
+  bottom: 0;
+  width:150px;
+  height: 50px;
+  float: right;
+  background-color: #dbd400;
+}
+.footer{
+  width:400px;
+  height: 100px;
+  background-color: #d98d30;
+}
